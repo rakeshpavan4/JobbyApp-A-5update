@@ -1,0 +1,30 @@
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px 5px;
+}
+.logout_button {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+}
+.item {
+  list-style-type: none;
+  color: white;
+}
+.list_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
