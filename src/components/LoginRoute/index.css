@@ -39,3 +39,6 @@
   height: 35px;
   margin-top: 10px;
 }
+.errormsg {
+  color: red;
+}
