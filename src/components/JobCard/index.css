@@ -1,0 +1,40 @@
+.jobDataContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #7e858e;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.loction_package {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  color: black;
+  width: 100%;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.company-logo {
+  height: 50px;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-title-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

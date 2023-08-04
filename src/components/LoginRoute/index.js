@@ -8,8 +8,8 @@ class LoginRoute extends Component {
   state = {
     username: '',
     password: '',
-    errorMsg: '',
     showErrorMsg: false,
+    errorMsg: '',
   }
 
   onChangeUsername = event => {
@@ -28,7 +28,7 @@ class LoginRoute extends Component {
   }
 
   onsubmitFailure = errorMsg => {
-    this.setState({showErrorMsg: true, errorMsg})
+    this.setState({errorMsg, showErrorMsg: true})
   }
 
   submitForm = async event => {
@@ -91,7 +91,7 @@ class LoginRoute extends Component {
           <button type="submit" className="LoginButton">
             Login
           </button>
-          {showErrorMsg && <p className="errormsg">*{errorMsg}</p>}
+          {showErrorMsg && <p className="error_msg">*{errorMsg}</p>}
         </form>
       </div>
     )

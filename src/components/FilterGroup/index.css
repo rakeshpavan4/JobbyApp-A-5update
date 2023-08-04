@@ -1,0 +1,17 @@
+.search-input-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10px;
+}
+.search-input {
+  background-color: transparent;
+}
+.search-button-container {
+  background-color: #7e858e;
+  border: none;
+}
+.search-icon {
+  background-color: transparent;
+}

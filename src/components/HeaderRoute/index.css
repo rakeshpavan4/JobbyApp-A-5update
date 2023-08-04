@@ -17,6 +17,8 @@
 .item {
   list-style-type: none;
   color: white;
+  cursor: pointer;
+  margin-left: 9px;
 }
 .list_items {
   display: flex;
@@ -27,5 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #121212;
+  background-color: #2c364c;
+}
+.website_logo {
+  cursor: pointer;
 }

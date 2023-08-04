@@ -1,0 +1,19 @@
+.RetryButton {
+  cursor: pointer;
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.failureview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.jobsContainer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
