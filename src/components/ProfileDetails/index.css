@@ -1,0 +1,12 @@
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  padding: 4px;
+  flex-direction: column;
+  background-size: cover;
+  margin-top: 10px;
+  height: 200px;
+  border-radius: 15px;
+}

@@ -103,7 +103,7 @@ class JobsRoute extends Component {
     const lengthofList = jobsRole.length > 0
 
     return lengthofList ? (
-      <div className="">
+      <div className="JobCardDetails">
         <ul>
           {jobsRole.map(eachjob => (
             <JobCard jobData={eachjob} key={eachjob.id} />
